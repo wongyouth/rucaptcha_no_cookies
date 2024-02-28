@@ -2,6 +2,7 @@ module RucaptchaNoCookies
   module ViewHelpers
     SESSION_ID_KEY = '_rucaptcha_session_id'
 
+    # override
     def rucaptcha_image_tag(opts = {})
       session_id = SecureRandom.hex(16)
 
