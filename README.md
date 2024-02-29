@@ -1,14 +1,14 @@
 # RucaptchaNoCookies
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rucaptcha_no_cookies`. To experiment with that code, run `bin/console` for an interactive prompt.
+`RucaptchaNoCookies` was developed to support the use of [rucapture](https://github.com/huacnlee/rucaptcha) without relying on cookies. Supporting rucapture within an iframe is beneficial, as Safari and Firefox do not currently support cookie usage for sites on different domains. Chrome is also set to impose this restriction starting April 1, 2024.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add `rucaptcha_no_cookies` after `rucaptcha` to your application's Gemfile:
 
 ```ruby
+gem 'rucaptcha'
 gem 'rucaptcha_no_cookies'
 ```
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+We don't add any new API, the API remains the same as `rucaptcha`. Please refer to [rucaptcha](https://github.com/huacnlee/rucaptcha) and just forget about `rucaptcha_no_cookies`.
 
 ## Development
 
