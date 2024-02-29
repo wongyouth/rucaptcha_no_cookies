@@ -10,9 +10,7 @@ module RucaptchaNoCookies
       opts[:src] = "#{ru_captcha.root_path}?#{SESSION_ID_KEY}=#{session_id}&t=#{Time.now.strftime('%s%L')}"
       opts[:onclick] = "this.src = '#{ru_captcha.root_path}?#{SESSION_ID_KEY}=#{session_id}&t=' + Date.now();"
 
-      tag.div(class: 'rucaptcha-image-group') do
-        rucaptcha_session_tag(session_id) + tag('img', opts)
-      end
+      tag('img', opts) + rucaptcha_session_tag(session_id)
     end
 
     private
