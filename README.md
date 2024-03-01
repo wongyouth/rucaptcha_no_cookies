@@ -24,6 +24,12 @@ Or install it yourself as:
 
 We don't add any new API, the API remains the same as `rucaptcha`. Please refer to [rucaptcha](https://github.com/huacnlee/rucaptcha) and just forget about `rucaptcha_no_cookies`.
 
+## How it works
+
+1. Include a hidden input for session_id within the form next to the captcha image.
+2. Upon clicking the captcha image, trigger the request with the session id as the query parameter.
+3. Upon form submission, the `verify_rucaptcha?` will retrieve the session_id from the `params`.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
