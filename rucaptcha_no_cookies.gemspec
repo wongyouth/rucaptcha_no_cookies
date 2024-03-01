@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["wongyouth@gmail.com"]
 
   spec.summary       = 'Use rucaptcha without cookies'
-  spec.description   = 'Use rucaptcha without cookies to supported in embedding pages'
+  spec.description   = 'Support using rucaptcha in embedded pages'
   spec.homepage      = 'https://github.com/wongyouth/rucaptcha_no_cookies'
   spec.license       = "MIT"
 
