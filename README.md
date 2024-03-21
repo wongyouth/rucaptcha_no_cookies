@@ -38,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rucaptcha_no_cookies.
+Bug reports and pull requests are welcome on GitHub at https://github.com/wongyouth/rucaptcha_no_cookies.
 
 ## License
 
